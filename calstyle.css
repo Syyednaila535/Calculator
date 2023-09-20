@@ -13,7 +13,7 @@ body{
 	align-items: center;
 	background: linear-gradient(black, rgba(0, 0, 0, 0));
 }
-/*---------for large screen---------*/
+/*---------for extra large screen---------*/
    @media only screen and (max-width:1920px){
 .Calculator{
 	padding: 20px;
@@ -101,7 +101,7 @@ button{
 .symbol{
 	color: cyan;
 }}
-  /*---------for large screen---------*/
+  /*---------for medium screen---------*/
    @media only screen and (max-width:800px){
    button{
 	border: none;
@@ -127,7 +127,7 @@ input{
 	text-align: right;
 	cursor: pointer;
 }}
-/*---------for large screen---------*/
+/*---------for small screen---------*/
    @media only screen and (max-width:600px){
    	.Calculator{
 	padding: 20px;
