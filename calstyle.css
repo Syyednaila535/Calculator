@@ -164,3 +164,42 @@ input{
 .symbol{
 	color: darkblue;
 }}
+	   @media (min-width: 568px) and (max-width: 1024px) and (orientation: landscape){
+ 	.Calculator{
+	padding: 20px;
+	border-radius: 20px;
+    background-image: linear-gradient(pink,aqua);
+	box-shadow:   8px  8px 12px;
+	font-weight: bold;
+	transition: 0.5s all;
+}
+   	button{
+	border: none;
+	width: 30px;
+	color: black;
+	height: 30px;
+	margin: 10px;
+	border-radius: 40%;
+	background: transparent;
+	font-weight: bold;
+	font-size: 15px;
+	box-shadow: -8px -8px 15px rgba(100,100,100,0.2);
+	transition: 0.5s all;
+}
+input{
+	width:200px; 
+	color: black;
+	outline: none;
+	padding:24px; 
+	margin:10px;
+    background: transparent;
+    font-size: 20px;
+	text-align: right;
+	cursor: pointer;
+}
+.symbol{
+	color: #00004d;
+}}
+
+	   
+	
